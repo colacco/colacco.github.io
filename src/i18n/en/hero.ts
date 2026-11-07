@@ -7,6 +7,7 @@ export const hero: HeroCopy = {
     'Software developer interested in backend, architecture and the fundamentals that make systems reliable, simple and able to evolve.',
   heroCtaAbout: 'About me',
   heroRun: 'Run profile',
+  heroRunShort: 'Run',
   heroViewProjects: 'See projects',
   heroScroll: 'scroll',
   ctaEmail: 'Send an email',

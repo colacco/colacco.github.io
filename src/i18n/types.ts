@@ -40,6 +40,7 @@ export interface HeroCopy {
   heroSub: string
   heroCtaAbout: string
   heroRun: string
+  heroRunShort: string
   heroViewProjects: string
   heroScroll: string
   ctaEmail: string
@@ -56,6 +57,7 @@ export interface ProjectsCopy {
   viewShots: string
   viewCode: string
   viewAllProjects: string
+  viewAllProjectsShort: string
   projects: ProjectCopy[]
 }
 
@@ -84,8 +86,6 @@ export interface ExperienceCopy {
 export interface ContactCopy {
   contactTitle: string
   contactBody: string
-  contactStatusLabel: string
-  contactStatusValue: string
   contactHint: string
 }
 

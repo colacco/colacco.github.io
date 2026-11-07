@@ -7,6 +7,7 @@ export const projects: ProjectsCopy = {
   viewShots: 'Screenshots',
   viewCode: 'View code',
   viewAllProjects: 'View more projects',
+  viewAllProjectsShort: 'More Projects',
   projects: [
     {
       long: 'A local RAG pipeline: document ingestion, embedding with Ollama and grounded answers. Built with FastAPI, LangChain, MongoDB and React.',

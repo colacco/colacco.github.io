@@ -23,7 +23,7 @@ export function Hero() {
         <HeroIntro t={t} name={name} sub={sub} phase={phase} />
 
         <Reveal index={5} className="min-w-0">
-          <HeroCodePanel runLabel={t.heroRun} />
+          <HeroCodePanel runLabel={t.heroRun} runShortLabel={t.heroRunShort} />
         </Reveal>
       </div>
 

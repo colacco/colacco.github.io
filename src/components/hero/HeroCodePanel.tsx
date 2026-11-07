@@ -83,9 +83,10 @@ const CODE_LINES: Array<Array<[TokenKind, string]>> = [
 
 interface HeroCodePanelProps {
   runLabel: string
+  runShortLabel: string
 }
 
-export function HeroCodePanel({ runLabel }: HeroCodePanelProps) {
+export function HeroCodePanel({ runLabel, runShortLabel }: HeroCodePanelProps) {
   const gutterWidth = useMemo(() => String(CODE_LINES.length).length + 1, [])
 
   return (
@@ -126,7 +127,8 @@ export function HeroCodePanel({ runLabel }: HeroCodePanelProps) {
           className="inline-flex h-6.5 items-center gap-1.5 rounded-md border border-[rgba(196,162,255,.5)] px-2.5 font-mono text-[12px] text-[#c4a2ff] no-underline transition-[border-color,color,background] duration-250 hover:border-[#c4a2ff] hover:bg-[rgba(196,162,255,.14)] hover:text-[#c4a2ff]"
         >
           <i className="ph ph-play text-[11px]" aria-hidden="true" />
-          {runLabel}
+          <span className="sm:hidden">{runShortLabel}</span>
+          <span className="hidden sm:inline">{runLabel}</span>
         </a>
       </div>
 

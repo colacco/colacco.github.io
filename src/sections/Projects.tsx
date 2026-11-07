@@ -79,7 +79,8 @@ export function Projects({ onModalOpenChange }: ProjectsProps = {}) {
                 rel="noreferrer"
                 className="inline-flex items-center gap-1.5 rounded-full border border-[rgba(196,188,255,.4)] px-4 py-2 text-sm text-[#e6e2ff] transition-colors duration-250 hover:border-[#c3b9ff] hover:bg-[rgba(196,188,255,.16)]"
               >
-                {t.viewAllProjects}
+                <span className="hidden md:inline">{t.viewAllProjects}</span>
+                <span className="md:hidden">{t.viewAllProjectsShort}</span>
                 <i className="ph ph-arrow-up-right" aria-hidden="true" />
               </a>
             </div>
@@ -93,6 +94,8 @@ export function Projects({ onModalOpenChange }: ProjectsProps = {}) {
             slide={slide}
             maxSlide={maxSlide}
             onOpen={setOpenIndex}
+            onNext={next}
+            onPrev={prev}
           />
         </Reveal>
       </div>
