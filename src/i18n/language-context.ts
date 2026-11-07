@@ -9,8 +9,8 @@ export interface LanguageValue {
 }
 
 export const LanguageContext = createContext<LanguageValue>({
-  lang: 'en',
-  t: COPY.en,
+  lang: 'pt',
+  t: COPY.pt,
   toggleLang: () => {},
 })
 
