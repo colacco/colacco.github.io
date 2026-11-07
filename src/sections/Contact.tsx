@@ -63,13 +63,6 @@ export function Contact() {
       <div className="relative flex flex-col gap-6.5">
         <Reveal index={0}>
           <header className="flex flex-col gap-3">
-            <div className="text-pf-contact-green flex items-center gap-2.25 font-mono text-xs">
-              <span className="bg-pf-contact-green h-1.75 w-1.75 rounded-full" />
-              <span className="text-pf-contact-dim">
-                {t.contactStatusLabel}
-              </span>
-              <span>{t.contactStatusValue}</span>
-            </div>
             <h2 className="m-0 text-[clamp(30px,4.4vw,44px)] leading-[1.05] font-medium tracking-[-0.03em]">
               {t.contactTitle}
             </h2>
