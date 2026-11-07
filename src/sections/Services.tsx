@@ -10,7 +10,7 @@ export function Services() {
   return (
     <section id="services" aria-labelledby="services-heading" className="scroll-mt-20 pt-15 pb-22.5">
       <Reveal index={0}>
-        <div className="@container border-pf-services-border bg-pf-surface shadow-pf-services box-border w-full rounded-[clamp(12px,1.4cqi,16px)] border p-[clamp(28px,6cqi,72px)_clamp(20px,6cqi,72px)_clamp(16px,3cqi,40px)]">
+        <div className="@container border-pf-services-border bg-pf-surface shadow-pf-services box-border w-full rounded-[clamp(12px,1.4cqi,16px)] border max-sm:-mx-10 max-sm:w-auto max-sm:rounded-none max-sm:border-x-0 p-[clamp(28px,6cqi,72px)_clamp(20px,6cqi,72px)_clamp(16px,3cqi,40px)]">
           <div className="mb-[clamp(28px,4.5cqi,52px)] flex flex-wrap items-end justify-between gap-[clamp(16px,3cqi,40px)]">
             <div className="max-w-155 flex-[1_1_300px] flex flex-col gap-[clamp(10px,1.6cqi,18px)]">
               <h2

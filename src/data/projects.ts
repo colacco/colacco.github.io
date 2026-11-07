@@ -84,7 +84,7 @@ export const PROJECT_META: ProjectMeta[] = [
       en: 'A full-stack event management platform with QR-code check-in and automatic PDF certificate generation.',
       pt: 'Plataforma full-stack de gestão de eventos com check-in via QR code e geração automática de certificados em PDF.',
     },
-    repo: null,
+    repo: 'https://github.com/colacco/EventHub-back',
     cover: eventHubPresentation,
     shots: [eventHubPresentation, eventHubCheckinCertificate],
     stack: [

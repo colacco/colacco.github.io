@@ -14,7 +14,7 @@ function yearsSince(date: Date): number {
 }
 
 export const STAT_META: StatMeta[] = [
-  { value: 20, suffix: '+' },
+  { value: 5, suffix: '+' },
   { value: yearsSince(new Date(2024, 0, 1)), suffix: '+' },
   { value: yearsSince(new Date(2025, 3, 1)), suffix: '+' }, 
 ]

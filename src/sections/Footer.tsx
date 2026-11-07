@@ -16,7 +16,7 @@ export function Footer() {
           <BrandMark
             label={
               <>
-                gabriel<span className="text-pf-accent">.</span>colaço
+                gabriel<span className="text-pf-accent">.</span>colaco
               </>
             }
           />

@@ -123,7 +123,7 @@ export function Header({ hidden = false }: HeaderProps) {
             className="text-pf-text flex flex-none items-center gap-2.5 no-underline"
             label={
               <>
-                colaco<span className="text-pf-accent">.</span>dev
+                colaco
               </>
             }
           />
